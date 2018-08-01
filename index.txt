@@ -1,0 +1,557 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>home</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style>
+		html {
+			height: 100%;
+		}
+		body {
+			height: 100%;
+			font:  14px/18px 'Times New Roman'  times sans-serif; 
+			background-color:  #fff;
+		}
+		
+		ol, ul {
+			list-style: none;
+		}
+		a, a:link {
+			text-decoration:none;
+		}
+		
+		
+		a {
+			color: #fff;
+		}
+		/* header navbar */
+		  .navbor a:hover {
+			border: 3px solid #fff;
+			border-radius: 24px;
+			color: #fff;
+			padding: 10px;
+		}
+		.clearfix:before,
+		.cleaefix:after {
+			content: " ";
+			display: table;
+		}
+		.cleaefix:after {
+			clear: both;
+		}
+		.conteiner {
+			width: 1160px;
+			margin: 0 auto;
+			display: table;
+		}
+		#header {
+			position: absolute;
+			top: 20px;
+			left: 135px;
+			right: 135;
+			width: 100%;
+			padding: 20px 0;
+			}
+		.logo {
+			float: left;
+		}
+		.nav {
+			float: right;
+		}
+		.nav li {
+			float: left;
+			margin-right: 60px;
+			}
+		.nav a {
+			font: 14px Arial, sans-serif;
+			color: #fff;
+			cursor: pointer;
+		}
+		.nav li:last-child {
+			margin-right: 0;
+		}
+		#home {
+			height: 700px;
+			width: 1440px;
+			padding-top: 180px;
+			text-align: center;
+			color: #fff;
+			background: #80CBC4 url(https://pp.userapi.com/c834104/v834104899/e766e/xZYKBSpiBfU.jpg) no-repeat center bottom;
+			background-size: cover;
+		}
+		#home h2 {
+			font: 80px/80px georgia, serif;
+			text-transform: uppercase;
+			font-weight: 1000;
+			margin-bottom: 30px;
+		}
+		#home h5 {
+			font: 22px/22px arial, sans-serif;
+			line-height: 2;
+		}
+		.lost {
+			color: #0097A7;
+		}
+		.btn {
+			display: inline-block;
+			padding: 28px 34px;
+			background-color: #FFFFA7;
+			border: 1px #fff;
+			border-radius: 50px;
+			font: 20px/20px arial, sans-serif;
+			text-transform: uppercase;
+			font-weight: 700;
+			margin-bottom: 20px;
+			cursor: pointer;
+			}
+		.btn:hover {
+			border: none;
+			background-color: #FFF176;
+		
+			}
+		.logo {
+			font-size: 20px;
+			font-family: verdana, sans-serif;
+			color: #fff;
+			line-height: 1.2;
+			text-align: center;
+			font-weight: 500;
+			letter-spacing: 0.7px;
+			position: absolute;
+			padding-top: 14px;
+			cursor: pointer;
+}
+		.ngalam {
+			font-weight: 750;
+		}
+		.layer4 {
+			overflow: hidden;
+			height: 44px;
+			width: 44px;
+			border: 1px #fff;
+			border-radius: 22px;
+			cursor: pointer;
+			margin-left: 40px;
+		}
+		
+		/*  home */
+		
+		.box {
+			background-color: rgba(255, 255, 255, 0.9);
+			position: relative;
+			top: -50px;
+			display: table;
+			margin-left: 130px;
+			height: 540px;
+			width: 1160px;
+		}
+		.img1 {
+			float: left;
+			width: 50%;
+		}
+		.text1 {
+			font: 24px/24px;
+			color: #9E9E9E;
+		}
+		.conteiner2 {
+			padding: 130px 50px;
+		}
+		h2.title {
+			font: 60px/60px georgia, serif;
+			color	: #28D9C3;
+			font-weight: 1000;
+		}
+		.love {
+			color: #0097A7;
+			}
+		
+			/* Destination */
+		.conteiner3 {
+			background-color: #F2FEFE;
+			position: relative;
+			display: table;
+			height: 1400px;
+			width: 1440px;
+		}
+		.see {
+			margin-top: 70px;
+			float: right;
+			margin-right: 250px;
+			margin-bottom: 30px;
+			font: 15px;
+			color	: #C1C1C2;
+		}
+		.svgi {
+			padding: 8px;
+			position: relative;
+			top: 5px;
+		}
+		.title2 {
+			float: left;
+			font: 60px/60px georgia, serif;
+			color	: #28D9C3;
+			font-weight: 1000;
+			margin-left: 250px;
+		}
+		.descr2  {
+			display: inline-block;
+			font: 24px/24px;
+			color: #9E9E9E;
+			margin-left: 250px;
+			margin-top: 25px;
+		}
+		.form-search { 
+			display: inline-block; 
+			border-radius: 18px; 
+			padding: 4px; 
+		} 
+		.form-search input { 
+			width: 130px; 
+			height: 32px; 
+			line-height: 32px; 
+			font: 13px Helvetica, Arial, sans-serif; 
+			color: C1C1C1; 
+			text-shadow: 0 1px 0 #c1c1c1; 
+			-moz-transition: all .2s ease-out; 
+			-webkit-transition: all .2s ease-out; 
+			-o-transition: all .2s ease-out; 
+			transition: all .2s ease-out;
+			padding: 0 30px 0 30px; 
+			background: #fff no-repeat;
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			border: 0.6px solid #c1c1c1; 
+			border-radius: 15px; 
+			box-shadow: inset 0 1px 1px #c1c1c1, 0 1px 0 #FFF; 
+			margin: 40px 0 0 250px;
+			} 
+		.form-search input:focus { 
+			width: 160px; 
+			box-shadow: inset 0 1px 1px #46575b, 0 1px 0 #FFF; 
+			color: #c1c1c1; 
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+			background-image: url("http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png");
+		}
+		input::-webkit-input-placeholder {
+			color: c1c1cc;
+		}
+		.podcast {
+			display: inline;
+			float: right;
+			padding: 10px;
+			margin: 40px 250px 0 0;
+			font: 18px/18px arial, serif;
+			color: #c1c1c1;
+			text-transform: uppercase;
+			word-spacing: 6px;
+			}
+		.place {
+			font-weight: 1000;
+			color: #757575;
+		}
+		.placebox {
+			height: 520px;
+			weight: 1160px;
+			background: #fff url(https://pp.userapi.com/c824600/v824600570/ef1ad/JJb1jhdJh44.jpg) no-repeat top center;
+			background-size: cover;
+			margin: 20px 130px 20px 130px;
+			padding: 0px 4px 0px 4px;
+		}
+		.batu {
+			height: 520px;
+			width: 500px;
+			background: rgba(255, 255, 255, 0.95);
+			position: relative;
+			right: -676px;
+			float: left;
+		}
+		.placebox a {
+			color: #fff;
+			position: relative;
+			left: 50px;
+			top: 470px;
+		}
+		.batu h6 {
+			font-size: 28px; 
+			color: #28D9C3;
+			text-align: left;
+			font-weight: 300;
+			margin: 12px 34px;
+		}
+		.batu p {
+			display: block;
+			font: 24px/24px;
+			color: #9E9E9E;
+			margin: 10px 34px;
+		}
+		.svgbatu {
+			margin: 50px 34px 40px 34px;
+		}
+		.bromo {
+			height: 360px;
+			width: 648px;
+			float: left;
+			background:  url(https://pp.userapi.com/c840137/v840137441/851ea/ndrCk-x88eM.jpg) no-repeat center;
+			margin: 30px 15px 30px 130px;
+		}
+		.palm {
+			height: 360px;
+			width: 500px;
+			float: right;
+			background: url(https://pp.userapi.com/c830209/v830209942/af31c/d5eaUcvw96I.jpg) no-repeat center;
+			margin: 30px 130px 30px 15px;
+		}
+		.bromobox {
+			height: 360px;
+			width: 48%;
+			background: rgba(255, 255, 255, 0.95);
+			float: left;
+		}
+		.bromobox h6 {
+			font-size: 28px; 
+			color: #28D9C3;
+			text-align: left;
+			font-weight: 300;
+			margin: 12px 24px;
+		}
+		.bromobox p {
+			display: block;
+			font: 24px/24px;
+			color: #9E9E9E;
+			margin: 10px 24px;
+		}
+		.bromosvg {
+			margin: 30px 24px 20px 24px;
+		}
+		.svgpalm {
+			background: rgba(255, 255, 255, 0.95);
+			position: relative;
+			left: 28%;
+			top: 28%;
+			height: 140px;
+			width: 140px;
+			border: 1px #fff;
+			border-radius: 70px;
+			margin-left: 40px;
+		}
+		.svgplm {
+			position: relative;
+			top: 25px;
+			left: 25px;
+		}
+		.numpage {
+			position: relative;
+			left: 600px;
+		}
+		.numpage a {
+			float: left;
+			font: 22px/22px;
+			color: #c1c1c1;
+			font-weight: 1000;
+			margin: 50px 8px;
+		}
+		.numpage a:hover {
+			color: #0097A7;
+		}
+		.conteiner4 {
+			background: #fff;
+			width: 1440px;
+		}
+		.conteiner4 p {
+			font: 24px/24px;
+			color: #9E9E9E;
+			text-align: center;
+		}
+		.conteiner4 h2 {
+			padding: 100px;
+			font: 60px/60px georgia, serif;
+			color	: #28D9C3;
+			font-weight: 1000;
+			text-align: center;
+		}
+		.ittinery {
+			color: #0097A7;
+		}
+		.setin {
+			
+			height: 600px;
+			width: 550px;
+			margin: 60px 50px 50px 130px;
+			background: #FFFFA7;
+		}
+		.setin h6 {
+			height: 80px;
+			width: 550px;
+			font: 20px/20px;
+			color: #fff;
+			text-align: center;
+			background: #29D9C2;
+		}
+		input.date {
+			border: none;
+			background: none;
+			color: #29D9C2;
+			font: 22px/22px;
+			font-weight: 1000;
+			position: relative;
+			left: 400px;
+		}
+		.time {
+			height: 50px;
+			width: 400px;
+			border: 0.5px solid #c1c1c1;
+			border-radius: 8px;
+			background: #fff url(https://pp.userapi.com/c840239/v840239707/8f571/z9Wz2DYQ8VI.jpg) no-repeat left;
+			color: #c1c1c1;
+			font: 22px/22px;
+			font-weight: 1000;
+			position: relative;
+			left: 10px;
+			margin: 40px;
+			padding: 6px 5px 6px 65px;
+		}
+			.time2 {
+			height: 50px;
+			width: 400px;
+			border: 0.5px solid #c1c1c1;
+			border-radius: 8px;
+			background: #fff url(https://pp.userapi.com/c845218/v845218755/de8b/2qQ9rRNfJXk.jpg) no-repeat left;
+			color: #c1c1c1;
+			font: 22px/22px;
+			font-weight: 1000;
+			position: relative;
+			left: 10px;
+			margin: 40px;
+			padding: 6px 5px 6px 65px;
+			
+		}
+</style>
+	
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div class="conteiner clearfix">
+				<div class="logo">
+					<a href="#">Yok<span class="ngalam">Ngalam</span></a>
+				</div>
+				<ul class="nav">
+				<span class="navbor">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Destination</a></li>
+					<li><a href="#">Littinary</a></li>
+					<li><a href="#">Review</a></li>
+					<li><a href="#">Contact</a></li>
+					</span>
+					<li class="layer4"> 
+					<a href="#"><img src="https://pp.userapi.com/c840025/v840025011/57de8/xtx5rCLPS3Q.jpg"/></a>
+				</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<div id="home">
+			<div class="conteiner">
+				<h2>Lets get <span class="lost">lost</span></h2>
+				<h5>Malang will never dissapointed you. </br> From every step you took you will be amazed and suddenly fallin love with malang</h5>
+				<button class="btn">Set ittinery now</button>
+			</div>
+		</div>
+		</div>
+		<div id="service" class="box">
+			<div class="conteiner2">
+			<div class="img1">
+				<img src="https://pp.userapi.com/c840024/v840024757/88788/xMUkN9HN1UU.jpg"/>
+			</div>
+			<div class="text1">
+				<h2 class="title">City of <span class="love">Love</span></h2>
+				<p class="descr">Malang is the second largest city in East Java province, Indonesia. It has a hostory dating
+				 back to the ancient Mataram Kingdom. The city is famous for it's cool
+				temperature. People in East Java sometimes call it "Psris of East Java".</p>
+				</div>
+			</div>
+		</div>
+		<div class="conteiner3">
+			<div class="text2">
+				<h2 class="title2">Des<span class="love">tination</span></h2>
+				
+				<p class="see"><span class="svgi"> 
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" ="20" height="20"> 	<style> 		tspan { white-space:pre } 		.shp0 { fill: #c1c1c1 } 	</style> 	<path id="Forma 1" class="shp0" d="M9.99 0.51C4.76 0.51 0.51 4.76 0.51 9.99C0.51 15.23 4.76 19.48 9.99 19.48C15.23 19.48 19.48 15.23 19.48 9.99C19.48 4.76 15.23 0.51 9.99 0.51ZM11.97 15.21C11.48 15.4 11.09 15.55 10.8 15.65C10.51 15.75 10.17 15.8 9.79 15.8C9.2 15.8 8.74 15.66 8.41 15.37C8.08 15.08 7.92 14.72 7.92 14.27C7.92 14.1 7.93 13.92 7.95 13.74C7.98 13.56 8.02 13.36 8.07 13.13L8.68 10.97C8.74 10.77 8.78 10.57 8.82 10.39C8.86 10.2 8.88 10.03 8.88 9.88C8.88 9.6 8.82 9.41 8.7 9.3C8.59 9.19 8.37 9.14 8.05 9.14C7.89 9.14 7.73 9.16 7.57 9.21C7.4 9.26 7.26 9.31 7.14 9.35L7.3 8.69C7.7 8.53 8.09 8.39 8.45 8.27C8.82 8.15 9.16 8.1 9.49 8.1C10.07 8.1 10.53 8.24 10.85 8.52C11.16 8.8 11.32 9.17 11.32 9.63C11.32 9.72 11.31 9.89 11.29 10.12C11.27 10.36 11.23 10.57 11.17 10.77L10.56 12.93C10.51 13.1 10.47 13.3 10.43 13.52C10.39 13.74 10.37 13.91 10.37 14.02C10.37 14.3 10.43 14.5 10.56 14.6C10.69 14.71 10.91 14.76 11.22 14.76C11.37 14.76 11.54 14.73 11.73 14.68C11.91 14.63 12.05 14.58 12.13 14.54L11.97 15.21ZM11.86 6.47C11.58 6.74 11.24 6.87 10.84 6.87C10.44 6.87 10.1 6.74 9.81 6.47C9.53 6.21 9.38 5.89 9.38 5.52C9.38 5.14 9.53 4.82 9.81 4.56C10.1 4.29 10.44 4.16 10.84 4.16C11.24 4.16 11.58 4.29 11.86 4.56C12.14 4.82 12.29 5.14 12.29 5.52C12.29 5.89 12.14 6.21 11.86 6.47Z" /> </svg>
+				</span> see basic regulation</p>
+				<p class="descr2">Being arond by many mountain, Malang not only come mountain vacation, but our beach, </br>
+				cultural sport, and Human Interset is worth to experinced.</p>
+				</div>
+				<div class="search">
+					<form class ="form-search" method ="get" action ="/ search "> 
+							<input type ="text" name =" search" placeholder =" search destination"  value =" "/> 
+					</form>
+					<h6 class="podcast"><span class="place">All place   /</span>   Recomended place</h6>
+				</div>
+				<div class="placebox">
+				<a href="#" >see more →</a>
+				<div class="batu"> 
+					<div class="svgbatu">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ="86" height="89" viewBox="0 0 86 89"> <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01 "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about=""/> </rdf:RDF> </x:xmpmeta> <?xpacket end="w"?></metadata> <image id="Vector_Smart_Object" data-name="Vector Smart Object" ="86" height="89" xlink:href="data:img/png;base64,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"/> </svg>
+						</div>
+					<h6 class="dumbass",>Batu</h6>
+					<p>Is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000, people it lies on the southern slopes of Gunung Welirang. Its population largely consists ot Javanese.</p>
+				</div>
+			</div>
+			<div class="bromo">
+				<div class="bromobox">
+					<div class="bromosvg">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ="107" height="53" viewBox="0 0 107 53"> <image id="Vector_Smart_Object" data-name="Vector Smart Object" ="107" height="53" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAA1CAMAAABx5eW5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAnFBMVEUAAAABoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqYBoqa98nG98nG98nG98nG98nG98nG98nG98nG98nG98nG98nG98nG98nGe5Xq98nEarZ+98nE3uZdMwpGK3H+w7XUwtplAvZSq6nYPqKIBoqa98nFIwJIksZyx7XR31IVTxY88u5UNp6NfyowAAAAsjf/4AAAAKXRSTlMAEGCvv59A7zBQgM9wIN+PIHCvv4BQj+8Qz2BA32Cf7zDfUK/vQGCfz7PQIqwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4gMVCR03/z8/yAAAAxNJREFUWMPtWNl2mzAQBSwswJgdyzbEcZpuKOn6/x/XGYExAkFwjXL60PsCYtHV3Fk0YBhLwLRWhBB7vchk07BoVYM4Wnlcz1sBCyVkgweNZG5tEfVxsAVSutVFZdfStdb4IKMuq9Ai0zCvtpCq0mRYUFU9/zhV5Wuhgom9/jVa2Vq4/IFZKKIeh3lgVx+VJrvcSgU9/toqubQl2H/8a9hCIOvdKVqEIrb05IwMc9MEsn4yB4prsDYcYHRrbssmVRBqSCEHNkJi1icBHE2v2euppYOq0Q4rn1EzkZAsr2mHCncqiq4LLDTTv9i7JNVVKkuSDv24WY4MqcLOGIQLrrNjfC7WMkkCIrZwYdMZ20oyxyO0oqubelKTDtwP7LQ7VpCtyWVfuaEnRYkGkWaGoTTukzmCKbA9+5asUFINIZP5oryILMeedG5WrGZGWYfMRGNWbT2x5pLZb1JFcZKmaZa3ZCIu3a6gdBaZJ0W3CjvegL3UZEi1kYvkLDLrrczZHzhPj0WR70rOBRlSvT70HkMyz5gE9LJtgxnlWXaMhlQsb86LkyADqsdvbK8gm4zG6wNnXDaijKVZTpydr6MofcH425gHnqjmmlDIDJpe8nhAd6RZljA4xtcnCs4L6ZX8SfSEZ86P/dncyc+xOrH2GZjETo1SSJtelNyXfNcXlYi4zTjry405NxrRtvhUO5Y94WLGWWNMxsu+X0QUwmsHnqomHAlGD5dRIFNPjjOYJnQEpfLhe3WdiRiPVXeU8YHR/iGR3XPRCS6nhRGVirW3ZLEUNTVG4gMvP0Mk7Paq6UBHEZTKm+Jd30j5YXDHVbkMt5HvsPqzoUaEOZDsR+6KXAEVs8EdhctQhh+cHY2/hCDLOR8s1Wwbvi79z/Flz4CobQk/DKaASkQlFSETXj/m82ceIfvEBuk3+OkBHvz1fIdRArhBPPTLCoJ0P2xR7M93Mhn1xvdFEarQF7W1Ct23yBc1bOhfS36aUnG1VM+Mi35SlRZyKR+h3PndRQb7xG/OlCpiLKr/UiwPu46L98Ea/2u+E6w/zuOETn/hXsMAAAAASUVORK5CYII="/> </svg>
+					</div>
+					<h6 class="dumbass">Bromo</h6>
+					<p><span class="bmount">Mount bromo</span> is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not highest peak of the massif, but is the most well known.</p>
+				</div>
+			</div>
+			<div class="palm">
+				<div class="svgpalm">
+					<div class="svgplm">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ="84" height="78" viewBox="0 0 84 78"> <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01 "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about=""/> </rdf:RDF> </x:xmpmeta> <?xpacket end="w"?></metadata> <image id="Vector_Smart_Object" data-name="Vector Smart Object" widthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidthwidth="84" height="78" xlink:href="data:img/png;base64,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"/> 
+					</svg>
+					</div>
+				</div>
+			</div>
+			<div class="numpage">
+				<ol>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">></a></li>
+					<li><a href="#">>></a></li>
+				</ol>
+			</div>
+			</div>
+		<div class="conteiner4">
+			<h2>Set <span class="ittinery">Ittinery</span></h2>
+			<p>Simple drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation.</br>  have a great trip !</p>
+			<div class="setin">
+				<h6>Your ittinery title here</h6>
+				<form>
+					<input type="date" name="date" class="date" placeholder="dd/mm/yy"></input>
+					<br/>
+					<input type="time" name="mtbromo" class="time" >
+					</input>
+					<br/>
+					<input type="submit" value="submit"></input>
+					<br/>
+					<input type="time" name="batucity" class="time2"></input>
+					<br/>
+					<input type="submit" value="submit"></input>
+				</form>
+			</div>
+		</div>
+</div>
+
+</body>
+</html>
